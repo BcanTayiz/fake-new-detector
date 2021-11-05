@@ -14,7 +14,6 @@ if (fs.existsSync('./classifier.json')) {
     console.log("Classifier is loaded")
     natural.BayesClassifier.load('classifier.json', null, function(err, classifier) {
         
-        console.log("wtf--3")
         let category = classifier.classify("Tigers seem innocent but the cat was very strong with its motivation and the technique and its learned martial arts. Cat used its knife and danger cries to destroy its enemy in a war battle that the tiger even couldn't resist")
     
         console.log("Trained ML Neural Network")
