@@ -1,6 +1,6 @@
 {
   "name": "fake-news-detector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "With machine learning detect is a new is fake or not",
   "main": "index.js",
   "scripts": {
