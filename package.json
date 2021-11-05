@@ -1,10 +1,10 @@
 {
   "name": "fake-news-detector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "With machine learning detect is a new is fake or not",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
