@@ -23,8 +23,6 @@ if (fs.existsSync('./classifier.json')) {
             let result = classifier.classify(string)
             return result
         }
-        let result = checkFakeNews('wow that is interesting that man jumped 100 miles in a second')
-        console.log(result)
         module.exports = checkFakeNews
     }); 
 }else{
