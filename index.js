@@ -62,7 +62,8 @@ async function applyModel(){
 
 
 function checkFakeNews(string){
-    classifier.classify(string)
+    let result = classifier.classify(string)
+    return result
 }
 
 module.exports = checkFakeNews
