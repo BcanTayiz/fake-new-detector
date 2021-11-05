@@ -18,6 +18,14 @@ if (fs.existsSync('./classifier.json')) {
     
         console.log("Trained ML Neural Network")
         console.log(category)
+
+        function checkFakeNews(string){
+            let result = classifier.classify(string)
+            return result
+        }
+        let result = checkFakeNews('wow that is interesting that man jumped 100 miles in a second')
+        console.log(result)
+        module.exports = checkFakeNews
     }); 
 }else{
    console.log('err')
@@ -61,12 +69,11 @@ async function applyModel(){
 }
 
 
-function checkFakeNews(string){
-    let result = classifier.classify(string)
-    return result
-}
 
-module.exports = checkFakeNews
+
+
+
+
 
 
 
