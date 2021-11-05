@@ -1,0 +1,35 @@
+{
+  "name": "fake-news-detector",
+  "version": "1.0.0",
+  "description": "With machine learning detect is a new is fake or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BcanTayiz/fake-new-detector.git"
+  },
+  "keywords": [
+    "fake",
+    "news",
+    "news",
+    "detection",
+    "news",
+    "cleaning"
+  ],
+  "author": "Appiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BcanTayiz/fake-new-detector/issues"
+  },
+  "homepage": "https://github.com/BcanTayiz/fake-new-detector#readme",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.4",
+    "classifier": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "ml5": "^0.7.1",
+    "natural": "^5.1.10",
+    "require-from-url": "^3.1.3"
+  }
+}
