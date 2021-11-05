@@ -7,7 +7,7 @@ const results = [];
 
 
 
-
+    
 if (fs.existsSync('./classifier.json')) {
     
     console.log("Classifier is loaded")
@@ -18,12 +18,11 @@ if (fs.existsSync('./classifier.json')) {
             return result
         }
 
-        let result = classifierML(string)
         module.exports = classifierML
     }); 
 }
 
-    
+
 
 
 
